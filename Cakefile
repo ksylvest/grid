@@ -1,4 +1,4 @@
-PROJECT = "jquery.lightbox"
+PROJECT = "grid"
 
 {spawn, exec} = require "child_process"
 
