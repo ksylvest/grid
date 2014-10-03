@@ -1,5 +1,5 @@
 .container {
-  width: 980px;
+  width: 1120px;
   margin: 0 auto;
   padding: 20px 0 0; }
   .container:before, .container:after {
@@ -8,42 +8,42 @@
     clear: both; }
 
 .grid-1 {
-  width: 60px;
+  width: 71.66667px;
   display: block;
   float: left;
   margin-left: 20px;
   margin-bottom: 20px; }
 
 .grid-2 {
-  width: 140px;
+  width: 163.33333px;
   display: block;
   float: left;
   margin-left: 20px;
   margin-bottom: 20px; }
 
 .grid-3 {
-  width: 220px;
+  width: 255px;
   display: block;
   float: left;
   margin-left: 20px;
   margin-bottom: 20px; }
 
 .grid-4 {
-  width: 300px;
+  width: 346.66667px;
   display: block;
   float: left;
   margin-left: 20px;
   margin-bottom: 20px; }
 
 .grid-5 {
-  width: 380px;
+  width: 438.33333px;
   display: block;
   float: left;
   margin-left: 20px;
   margin-bottom: 20px; }
 
 .grid-6 {
-  width: 460px;
+  width: 530px;
   display: block;
   float: left;
   margin-left: 20px;
@@ -54,37 +54,37 @@ body, head, html {
   padding: 0; }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #444444;
+  color: #444;
   font-family: "Droid Sans", sans-serif;
   font-weight: normal; }
 
 p, textarea, input, ul, li, a {
-  color: #888888;
+  color: #888;
   font-family: "Droid Serif", serif;
   font-weight: normal; }
 
 code {
-  color: #888888;
+  color: #888;
   font-family: "Consolas", "Monaco", monospace;
   font-weight: normal; }
 
 header.header {
   height: 50px;
   border-bottom: 2px solid purple;
-  background: white;
+  background: #FFF;
   position: relative;
   z-index: 100; }
 
 footer.footer .content {
-  border-top: 1px solid #cccccc;
-  border-left: 1px solid #cccccc;
-  border-right: 1px solid #cccccc;
-  background: #dddddd; }
+  border-top: 1px solid #CCC;
+  border-left: 1px solid #CCC;
+  border-right: 1px solid #CCC;
+  background: #DDD; }
 
 section.section .content {
-  border-left: 1px solid #cccccc;
-  border-right: 1px solid #cccccc;
-  background: #eeeeee; }
+  border-left: 1px solid #CCC;
+  border-right: 1px solid #CCC;
+  background: #EEE; }
 
 .brick {
   -webkit-transition: all 0.2s ease-in-out;
@@ -95,3 +95,5 @@ section.section .content {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4); }
   .brick:hover {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6); }
+
+/*# sourceMappingURL=grid.css.map */
