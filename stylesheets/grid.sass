@@ -1,8 +1,8 @@
 @import ../bourbon/bourbon
 
-$size: 1080px
+$size: 1200px
 
-@mixin container($size: 1080px, $gutter: 20px)
+@mixin container($size: 1180px, $gutter: 20px)
   width: $size + $gutter + $gutter
   margin: 0 auto
   padding: $gutter 0 0
@@ -12,7 +12,7 @@ $size: 1080px
     display: table
     clear: both
 
-@mixin columns($count, $base: 12, $size: 1080px, $gutter: 20px)
+@mixin columns($count, $base: 12, $size: 1180px, $gutter: 20px)
   width: $count * ($size + $gutter) / $base - $gutter
   display:  block
   float:  left

@@ -1,5 +1,5 @@
 .container {
-  width: 1120px;
+  width: 1220px;
   margin: 0 auto;
   padding: 20px 0 0; }
   .container:before, .container:after {
@@ -8,42 +8,42 @@
     clear: both; }
 
 .grid-1 {
-  width: 71.66667px;
+  width: 80px;
   display: block;
   float: left;
   margin-left: 20px;
   margin-bottom: 20px; }
 
 .grid-2 {
-  width: 163.33333px;
+  width: 180px;
   display: block;
   float: left;
   margin-left: 20px;
   margin-bottom: 20px; }
 
 .grid-3 {
-  width: 255px;
+  width: 280px;
   display: block;
   float: left;
   margin-left: 20px;
   margin-bottom: 20px; }
 
 .grid-4 {
-  width: 346.66667px;
+  width: 380px;
   display: block;
   float: left;
   margin-left: 20px;
   margin-bottom: 20px; }
 
 .grid-5 {
-  width: 438.33333px;
+  width: 480px;
   display: block;
   float: left;
   margin-left: 20px;
   margin-bottom: 20px; }
 
 .grid-6 {
-  width: 530px;
+  width: 580px;
   display: block;
   float: left;
   margin-left: 20px;
