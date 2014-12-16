@@ -12,7 +12,7 @@ $size: 1200px
     display: table
     clear: both
 
-@mixin columns($count, $base: 12, $size: 1180px, $gutter: 20px)
+@mixin columns($count: 1, $base: 12, $size: 1180px, $gutter: 20px)
   width: $count * ($size + $gutter) / $base - $gutter
   display:  block
   float:  left
@@ -22,6 +22,15 @@ $size: 1200px
 
 .container
   +container
+
+.stream
+  +columns($count: 7, $base: 30)
+  &:nth-child(4n+1)
+    margin:
+      left: 60px
+  &:nth-child(4n+4)
+    margin:
+      right: 60px
 
 @for $i from 1 through 6
   .grid-#{$i}
@@ -68,6 +77,9 @@ section.section
       left:  1px solid #CCC
       right: 1px solid #CCC
     background: #EEE
+
+.clear
+  +clearfix
 
 .brick
   +transition(all 0.2s ease-in-out)

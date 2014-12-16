@@ -7,6 +7,17 @@
     display: table;
     clear: both; }
 
+.stream {
+  width: 260px;
+  display: block;
+  float: left;
+  margin-left: 20px;
+  margin-bottom: 20px; }
+  .stream:nth-child(4n+1) {
+    margin-left: 60px; }
+  .stream:nth-child(4n+4) {
+    margin-right: 60px; }
+
 .grid-1 {
   width: 80px;
   display: block;
@@ -85,6 +96,14 @@ section.section .content {
   border-left: 1px solid #CCC;
   border-right: 1px solid #CCC;
   background: #EEE; }
+
+.clear {
+  *zoom: 1; }
+  .clear:before, .clear:after {
+    content: " ";
+    display: table; }
+  .clear:after {
+    clear: both; }
 
 .brick {
   -webkit-transition: all 0.2s ease-in-out;
